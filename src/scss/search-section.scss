@@ -99,3 +99,23 @@
     box-shadow: 0 0 5px 3px red !important;
 }
 
+@media (max-width: 649px) {
+    .search {
+        height: 350px;
+
+        &-form {
+            input {
+                left: 15%;
+            }
+
+            button {
+                top: 60px;
+                left: 35%;
+            }
+
+            span {
+                left: 17%;
+            }
+        }
+    }
+}

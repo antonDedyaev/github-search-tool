@@ -27,3 +27,11 @@ body {
 h1 {
     margin-bottom: 25px;
 }
+
+@media (max-width: 649px) {
+    h1 {
+        margin-top: 0;
+
+        text-align: center;
+    }
+}

@@ -50,7 +50,23 @@
 
         a {
             text-decoration: none;
+            word-break: break-all;
         }
 
+    }
+}
+
+@media (max-width: 849px) {
+    .results {
+        &-container {
+            margin-right: 0;
+            margin-left: 0;
+        }
+    }
+}
+
+@media (max-width: 649px) {
+    .results {
+        margin-top: 350px;
     }
 }
