@@ -12,7 +12,7 @@ export const renderInputValidity = () => {
   });
 };
 
-const renderResults = (searchResults) => {
+export const renderResults = (searchResults) => {
   const resultsContainer = document.querySelector('.results-container');
   resultsContainer.innerHTML = '';
 
@@ -69,5 +69,3 @@ const renderResults = (searchResults) => {
     resultsContainer.append(resultsHeader, table);
   }
 };
-
-export default renderResults;

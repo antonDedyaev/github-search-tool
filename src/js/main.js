@@ -1,8 +1,6 @@
-import renderResults, { renderInputValidity } from './view.js';
+import { renderInputValidity, renderResults } from './view.js';
 
 const app = () => {
-  renderInputValidity();
-
   const searchForm = document.querySelector('.search-form');
 
   const substSearchHandler = async (e) => {
@@ -14,12 +12,15 @@ const app = () => {
     const response = await fetch(`${baseURL}?q=${encodedSubstr}&per_page=10`);
     if (!response) {
       console.log(response.status);
+      return null;
     }
     const result = await response.json();
     renderResults(result);
   };
 
   searchForm.addEventListener('submit', substSearchHandler);
+
+  renderInputValidity();
 };
 
 export default app;
