@@ -1,0 +1,29 @@
+@font-face {
+    font-weight: 400;
+    font-family: 'Kontrapunkt Miki';
+    src: url("../files/fonts/KontrapunktMiki-Regular.otf");
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: 'Kontrapunkt Miki';
+    src: url("../files/fonts/KontrapunktMiki-Bold.otf");
+}
+
+@font-face {
+    font-weight: 900;
+    font-family: 'Kontrapunkt Miki';
+    src: url("../files/fonts/KontrapunktMiki-ExtraBold.otf");
+}
+
+body {
+    margin: 0;
+
+    font: 16px/1.5 'Kontrapunkt Miki', serif;
+
+    background: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+}
+
+h1 {
+    margin-bottom: 25px;
+}
