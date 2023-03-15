@@ -1,0 +1,55 @@
+{
+  "name": "y",
+  "version": "0.1.0",
+  "description": "A simple github search tool",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonDedyaev/github-search-tool.git"
+  },
+  "keywords": [
+    "Hotel.ru",
+    "trainee",
+    "js"
+  ],
+  "author": "Anton Dedyaev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonDedyaev/github-search-tool/issues"
+  },
+  "homepage": "https://github.com/antonDedyaev/github-search-tool#readme",
+  "devDependencies": {
+    "browser-sync": "^2.28.3",
+    "del": "^7.0.0",
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-functional": "^5.0.6",
+    "eslint-plugin-import": "^2.27.5",
+    "gh-pages": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "htmlhint": "^1.1.4",
+    "sass": "^1.59.2",
+    "stylelint": "^15.2.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^30.0.1",
+    "stylelint-config-standard-scss": "^7.0.1",
+    "stylelint-order": "^6.0.3",
+    "stylelint-scss": "^4.4.0",
+    "webpack": "^5.76.1",
+    "webpack-stream": "^7.0.0"
+  }
+}
