@@ -101,6 +101,7 @@
 
 @media (max-width: 649px) {
     .search {
+        align-items: flex-start;
         height: 350px;
 
         &-form {
@@ -115,7 +116,9 @@
 
             span {
                 left: 17%;
+                font-size: 12px;
             }
+
         }
     }
 }

@@ -68,5 +68,42 @@
 @media (max-width: 649px) {
     .results {
         margin-top: 350px;
+        &-container {
+            overflow-x: scroll;
+        }
+
+        &-table {
+            display: block;
+        }
     }
 }
+
+// @media(max-width: 768px) {
+//     .results {
+//         &-table thead {
+//             display: none;
+//         }
+
+//         &-table tr {
+//             display: flex;
+//             flex-direction: row;
+//             flex-wrap: wrap;
+//             margin-bottom: 30px;
+//         }
+
+//         &-table td {
+//             margin: 0 -1px -1px 0;
+//             padding-top: 35px;
+//             position: relative;
+//             width: 50%;
+//         }
+//     }
+// }
+
+// @media(max-width: 480px) {
+//     .results {
+//         &-table td {
+//             display: none;
+//         }
+//     }
+// }

@@ -30,7 +30,7 @@ export const renderResults = (searchResults) => {
 
     const headRow = document.createElement('tr');
     const nameHead = document.createElement('th');
-    nameHead.innerHTML = 'Имя';
+    nameHead.innerHTML = 'Название';
     const descriptionHead = document.createElement('th');
     descriptionHead.innerHTML = 'Описание';
     const languageHead = document.createElement('th');

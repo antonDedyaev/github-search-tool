@@ -15,7 +15,7 @@ const app = () => {
       return null;
     }
     const result = await response.json();
-    renderResults(result);
+    return renderResults(result);
   };
 
   searchForm.addEventListener('submit', substSearchHandler);
